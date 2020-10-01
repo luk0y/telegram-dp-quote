@@ -23,7 +23,7 @@
 			"value": ""
 		},
 		"STRING_SESSION": {
-			"description": "Get this value by running python3 telesetup.py locally",
+			"description": "Get this value by running https://generatestringsession.luk0y.repl.run",
 			"value": ""
 		}
 	},
