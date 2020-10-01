@@ -1,36 +1,33 @@
 {
-  "name": "Testing",
-  "description": "Userbot created by a x and custom fork by x contact x for support",
-  "keywords": [
-    "telegram",
-    "userbot",
-    "plugin",
-    "modular",
-    "productivity"
-  ],
-  "repository": "https://github.com/luk0y/telegram-dp-updater",
-  "website": "#TODO",
-  "success_url": "#TODO",
-  "env": {
-    "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
-      "value": "ANYTHING"
-    },
-    "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
-    },
-    "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally",
-      "value": ""
-    },
-  },
-  "buildpacks": [
-    {
-    "url": "heroku/python"
-  }]
+	"keywords": [
+		"telegram",
+		"userbot",
+		"plugin",
+		"modular",
+		"productivity"
+	],
+	"repository": "https://github.com/luk0y/telegram-dp-updater",
+	"website": "#TODO",
+	"success_url": "#TODO",
+	"env": {
+		"ENV": {
+			"description": "Setting this to ANYTHING will enable heroku.",
+			"value": "ANYTHING"
+		},
+		"APP_ID": {
+			"description": "Get this value from my.telegram.org! Please do not steal",
+			"value": ""
+		},
+		"API_HASH": {
+			"description": "Get this value from my.telegram.org! Please do not steal",
+			"value": ""
+		},
+		"STRING_SESSION": {
+			"description": "Get this value by running python3 telesetup.py locally",
+			"value": ""
+		}
+	},
+	"buildpacks": [{
+		"url": "heroku/python"
+	}]
 }
