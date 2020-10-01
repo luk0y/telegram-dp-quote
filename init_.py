@@ -4,12 +4,13 @@ from telethon.tl.functions.photos import UploadProfilePhotoRequest
 import workflow_image_utils
 from random import choice
 from asyncio import sleep
+import os
 
 import json
 
 
 # Remember to use your own values from my.telegram.org!
-api_id, api_hash, string = int(input("Enter api_id : ")),input("Enter api_hash : "),input("Enter string session id : ")
+api_id, api_hash, string = int(os.environ.get("APP_ID", 6)), os.environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e"),os.environ.get("STRING_SESSION", None)
 
 
 with open("quotes/csvjson.json","r") as f:
