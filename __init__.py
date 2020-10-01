@@ -34,7 +34,7 @@ async def main():
 	    await client(UploadProfilePhotoRequest(
 	    await client.upload_file('sample-imagetext.png')
 	))
-	    await sleep(20)
+	    await sleep(3600)
 
 with client:
 	client.loop.run_until_complete(main())
