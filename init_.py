@@ -9,9 +9,7 @@ import json
 
 
 # Remember to use your own values from my.telegram.org!
-api_id = int(input("Enter app id : "))
-api_hash = input("Enter api hash id : ")
-string = input("Enter string session id : ")
+api_id, api_hash, string = int(input("Enter api_id : ")),input("Enter api_hash : "),input("Enter string session id : ")
 
 
 with open("quotes/csvjson.json","r") as f:
