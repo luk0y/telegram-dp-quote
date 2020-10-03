@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Copyright 2011 Álvaro Justen [alvarojusten at gmail dot com]
-# License: GPL <http://www.gnu.org/copyleft/gpl.html>
-
 from PIL import Image, ImageDraw, ImageFont
 
 
