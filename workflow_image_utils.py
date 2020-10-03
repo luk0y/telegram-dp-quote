@@ -4,7 +4,7 @@
 # You need PIL <http://www.pythonware.com/products/pil/> to run this script
 # Download unifont.ttf from <http://unifoundry.com/unifont.html> (or use
 # any TTF you have)
-# Copyright 2011 Álvaro Justen [alvarojusten at gmail dot com]
+# Copyright 2020 @luk0y
 # License: GPL <http://www.gnu.org/copyleft/gpl.html>
 
 from image_utils import ImageText
