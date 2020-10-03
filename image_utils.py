@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#Credits : Álvaro Justen
+
 from PIL import Image, ImageDraw, ImageFont
 
 
